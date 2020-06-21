@@ -1,3 +1,3 @@
-module github.com/sarpt/utils
+module github.com/sarpt/goutils
 
 go 1.14

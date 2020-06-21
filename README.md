@@ -1,4 +1,4 @@
-# utils
+# goutils
 
 A `go` module aggregating various utilities that are used across my go applications
 
