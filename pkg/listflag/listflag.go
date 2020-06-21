@@ -1,4 +1,4 @@
-package cmds
+package listflag
 
 import (
 	"fmt"
