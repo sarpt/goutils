@@ -17,14 +17,14 @@ type StringList struct {
 
 // NewStringList creates a new ListFlag and sets allowed values for a flag
 // If list of allowed values contains no values then all possible string values are allowed
-func NewStringList(allowedValues []string) StringList {
+func NewStringList(allowedValues []string) *StringList {
 	allowed := make(map[string]bool)
 
 	for _, value := range allowedValues {
 		allowed[value] = true
 	}
 
-	return StringList{
+	return &StringList{
 		allowedValues: allowed,
 	}
 }
